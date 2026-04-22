@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#SBATCH --job-name=sj_adba
+#SBATCH -n 28
+#SBATCH -N 1
+#SBATCH -t 00-01:00:00
+#SBATCH -A oim001
+#SBATCH -p shortq
+#SBATCH -o out
+#SBATCH -e err
+
+source /okyanus/users/scahangirov01/zolder/py-venv/seymur-env/bin/activate
+
+python3 program.py
+
+deactivate

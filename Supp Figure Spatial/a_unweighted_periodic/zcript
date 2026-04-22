@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#SBATCH --job-name=sj_dba
+#SBATCH -n 28
+#SBATCH -N 1
+#SBATCH -t 02-01:00:00
+#SBATCH -A oim001
+#SBATCH -p defq
+#SBATCH -o out_%j.txt
+#SBATCH -e err_%j.txt
+
+source /okyanus/users/scahangirov01/zolder/py-venv/seymur-env/bin/activate
+
+# Define the array of cell numbers
+CELLS=(10 50 100 250 500 1000 2000 3000 4000 5000)
+
+# Store the base directory where the job was submitted
+BASE_DIR=$SLURM_SUBMIT_DIR
+
+for N in "${CELLS[@]}"; do
+    echo "=========================================="
+    echo "Starting calculations for ${N} cells..."
+    
+    # Create the folder (e.g., cell_data_10, cell_data_50)
+    FOLDER="cell_data_${N}"
+    mkdir -p "$FOLDER"
+    
+    # Move into the folder so Python drops the .npy files directly here
+    cd "$FOLDER" || exit
+    
+    # Run the Python script from the directory above, passing N as an argument
+    python3 ../program.py "$N"
+    
+    # Return to the base directory for the next loop iteration
+    cd "$BASE_DIR" || exit
+done
+
+echo "All calculations complete!"
+deactivate

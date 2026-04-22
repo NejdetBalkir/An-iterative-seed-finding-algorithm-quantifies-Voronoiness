@@ -1,0 +1,6 @@
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 28 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of  10 | elapsed:   27.3s remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done   5 out of  10 | elapsed:   27.5s remaining:   27.5s
+[Parallel(n_jobs=-1)]: Done   7 out of  10 | elapsed:   27.7s remaining:   11.9s
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:   28.5s finished
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.

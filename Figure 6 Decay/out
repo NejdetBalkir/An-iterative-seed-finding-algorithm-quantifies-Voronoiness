@@ -1,0 +1,7 @@
+Starting UNWEIGHTED FINITE parallel ensemble: 1000 realizations, 2000 cells each.
+Perturbing central cell vertices by Δa = 0.001...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+Decay constant (slope): -0.55498
+--------------------------------------------------

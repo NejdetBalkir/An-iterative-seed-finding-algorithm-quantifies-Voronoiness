@@ -1,0 +1,161 @@
+==========================================
+Starting calculations for 10 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 10 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 10
+Average Execution Time per Realization: 0.1096 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -4.4261
+Run-to-Run STD of Log-Mean:     1.7531 orders of magnitude
+Equivalent Typical Displacement: 3.75e-05
+Plots saved to current directory.
+==========================================
+Starting calculations for 50 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 50 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 50
+Average Execution Time per Realization: 0.5482 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -6.4156
+Run-to-Run STD of Log-Mean:     0.9161 orders of magnitude
+Equivalent Typical Displacement: 3.84e-07
+Plots saved to current directory.
+==========================================
+Starting calculations for 100 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 100 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 100
+Average Execution Time per Realization: 1.1165 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -6.7754
+Run-to-Run STD of Log-Mean:     0.6866 orders of magnitude
+Equivalent Typical Displacement: 1.68e-07
+Plots saved to current directory.
+==========================================
+Starting calculations for 250 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 250 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 250
+Average Execution Time per Realization: 2.8584 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -7.2233
+Run-to-Run STD of Log-Mean:     0.4808 orders of magnitude
+Equivalent Typical Displacement: 5.98e-08
+Plots saved to current directory.
+==========================================
+Starting calculations for 500 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 500 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 500
+Average Execution Time per Realization: 5.8079 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -7.5019
+Run-to-Run STD of Log-Mean:     0.3463 orders of magnitude
+Equivalent Typical Displacement: 3.15e-08
+Plots saved to current directory.
+==========================================
+Starting calculations for 1000 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 1000 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 1000
+Average Execution Time per Realization: 11.7606 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -7.7659
+Run-to-Run STD of Log-Mean:     0.2471 orders of magnitude
+Equivalent Typical Displacement: 1.71e-08
+Plots saved to current directory.
+==========================================
+Starting calculations for 2000 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 2000 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 2000
+Average Execution Time per Realization: 23.8980 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -7.9482
+Run-to-Run STD of Log-Mean:     0.1816 orders of magnitude
+Equivalent Typical Displacement: 1.13e-08
+Plots saved to current directory.
+==========================================
+Starting calculations for 3000 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 3000 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 3000
+Average Execution Time per Realization: 36.4921 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -8.0331
+Run-to-Run STD of Log-Mean:     0.1414 orders of magnitude
+Equivalent Typical Displacement: 9.27e-09
+Plots saved to current directory.
+==========================================
+Starting calculations for 4000 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 4000 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 4000
+Average Execution Time per Realization: 48.5704 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -8.0928
+Run-to-Run STD of Log-Mean:     0.1187 orders of magnitude
+Equivalent Typical Displacement: 8.08e-09
+Plots saved to current directory.
+==========================================
+Starting calculations for 5000 cells...
+Starting WEIGHTED FINITE parallel ensemble: 1000 realizations, 5000 cells each.
+Using all available CPU cores via joblib...
+--------------------------------------------------
+Ensemble generation complete.
+Exported '.npy' files successfully.
+--------------------------------------------------
+Number of Realizations: 1000
+Number of Cells: 5000
+Average Execution Time per Realization: 60.8806 seconds
+FINAL ENSEMBLE STATISTICS (at step 150):
+Grand Mean of Log-Displacement: -8.1275
+Run-to-Run STD of Log-Mean:     0.1108 orders of magnitude
+Equivalent Typical Displacement: 7.46e-09
+Plots saved to current directory.
+All calculations complete!
