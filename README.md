@@ -1,5 +1,7 @@
 # An iterative seed finding algorithm quantifies Voronoiness
 
+N. Balkır Göka, Koray Yavuz, Emin Aliyev, Arash Mobaraki, Ali Javili, Seymur Jahangirov
+
 This repository contains the code and data necessary to reproduce the figures for the paper "An iterative seed finding algorithm quantifies Voronoiness".
 
 ## Repository Structure
