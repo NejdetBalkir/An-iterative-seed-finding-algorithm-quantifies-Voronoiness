@@ -19,6 +19,8 @@ The repository is organized by figure, with each directory containing the code a
 - `Figure 7 Derivation`: Derivation-related visualizations.
 - `Figure 8 Deviatorics`: Analysis of deviatoric components.
 - `Figure 9 Wings`: Application to biological wing structures.
+- `Figure 10 Sketch`: Geometric conditions for the failure of strict contraction.
+- `Figure 11 Contraction`: Three test cases on a 4-cell finite tessellation for contraction analysis.
 - `Supp Figure Convergence`: Supplemental data on convergence.
 - `Supp Figure Panorpa`: Supplemental analysis for Panorpa (scorpionflies) wing patterns.
 - `Supp Figure Spatial`: Supplemental spatial analysis.
